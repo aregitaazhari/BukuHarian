@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/Linlay">
+
+    <LinearLayout
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/Tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Jam"
+                android:textColor="#1B1D27"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/Tv_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deskripsi"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_detail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="Image"
+        android:foreground="?attr/selectableItemBackground"
+        android:scaleType="center"
+        android:src="@android:drawable/ic_menu_more"/>
+
+    <ImageView
+        android:id="@+id/iv_edit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="Image"
+        android:foreground="?attr/selectableItemBackground"
+        android:scaleType="center"
+        android:src="@drawable/ic_launcher_foreground"/>
+
+    <ImageView
+        android:id="@+id/iv_delete"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="Image"
+        android:foreground="?attr/selectableItemBackground"
+        android:scaleType="center"
+        android:src="@drawable/ic_hapus24"/>
+
+
+</LinearLayout>
